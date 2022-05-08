@@ -163,3 +163,6 @@ DEFAULT_FROM_EMAIL = os.environ.get("FROM_EMAIL")
 
 
 MEDIA_URL = "/media/"
+
+BACKUP_PATH = "backup/"
+NUM_SAVED_BACKUP = 30
